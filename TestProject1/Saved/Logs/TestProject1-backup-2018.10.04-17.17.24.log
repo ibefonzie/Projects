@@ -1,0 +1,491 @@
+﻿Log file open, 10/03/18 19:46:31
+LogInit:Display: Running engine for game: TestProject1
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(644239843) SRandInit(644239843).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.070757
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Info: Connected to the server running version (prod = 1).1.30.0(build = 676007) feature version = 0. Client runs version (prod = 1).1.30.0(build = 0) feature version = 0
+OCULUS: Debug: [HMDState] Using default profile default
+OCULUS: Info: IAD changed to 69.1mm
+OCULUS: Debug: Creating factory
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Games/Epic Games/4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.04-00.46.31:879][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.04-00.46.31:879][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.04-00.46.31:889][  0]LogInit: Computer: DAYPC
+[2018.10.04-00.46.31:889][  0]LogInit: User: day
+[2018.10.04-00.46.31:889][  0]LogInit: CPU Page size=65536, Cores=4
+[2018.10.04-00.46.31:889][  0]LogInit: High frequency timer resolution =3.914062 MHz
+[2018.10.04-00.46.31:889][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.10.04-00.46.31:889][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.04-00.46.31:889][  0]LogMemory: Process Physical Memory: 269.07 MB used, 269.07 MB peak
+[2018.10.04-00.46.31:889][  0]LogMemory: Process Virtual Memory: 266.55 MB used, 266.55 MB peak
+[2018.10.04-00.46.31:889][  0]LogMemory: Physical Memory: 10648.16 MB used,  22032.08 MB free, 32680.24 MB total
+[2018.10.04-00.46.31:889][  0]LogMemory: Virtual Memory: 4815.94 MB used,  22032.08 MB free, 134217728.00 MB total
+[2018.10.04-00.46.31:944][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.10.04-00.46.32:530][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.04-00.46.32:568][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.10.04-00.46.32:568][  0]LogD3D11RHI:       8088/0/16340 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.04-00.46.32:569][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.04-00.46.32:569][  0]LogD3D11RHI:       0/0/16340 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.04-00.46.32:569][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.04-00.46.32:575][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.04-00.46.32:575][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.04-00.46.32:575][  0]LogWindows: EnumDisplayDevices:
+[2018.10.04-00.46.32:575][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.10.04-00.46.32:576][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.10.04-00.46.32:576][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.04-00.46.32:576][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.04-00.46.32:576][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.10.04-00.46.32:576][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.10.04-00.46.32:576][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.10.04-00.46.32:576][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.10.04-00.46.32:576][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.10.04-00.46.32:606][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.04-00.46.32:643][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.04-00.46.32:727][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Intermediate/Shaders/WorkingDirectory/17968/).
+[2018.10.04-00.46.32:727][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/day/AppData/Local/Temp/UnrealShaderWorkingDir/913283DB42170D00429B7A8D4A8FCB1D/'.
+[2018.10.04-00.46.32:727][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.10.04-00.46.33:455][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.04-00.46.33:493][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.10.04-00.46.33:531][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.04-00.46.33:569][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.10.04-00.46.33:608][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.10.04-00.46.33:648][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.04-00.46.33:686][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.04-00.46.33:728][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.04-00.46.33:759][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.10.04-00.46.33:796][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.10.04-00.46.33:832][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.10.04-00.46.33:869][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.10.04-00.46.33:907][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.10.04-00.46.33:944][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.10.04-00.46.33:981][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.10.04-00.46.34:055][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.10.04-00.46.34:055][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.10.04-00.46.34:081][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.10.04-00.46.34:152][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.10.04-00.46.34:175][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.10.04-00.46.34:212][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.04-00.46.34:250][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.04-00.46.34:287][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.04-00.46.34:326][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.10.04-00.46.34:326][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.10.04-00.46.34:597][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.10.04-00.46.34:631][  0]LogDerivedDataCache: Loaded boot cache 0.03s 50MB C:/Users/day/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.10.04-00.46.34:631][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/day/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2018.10.04-00.46.34:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.04-00.46.34:631][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.04-00.46.34:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.04-00.46.34:631][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.04-00.46.34:643][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.04-00.46.34:655][  0]LogDerivedDataCache: Using Local data cache path C:/Users/day/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.04-00.46.34:662][  0]LogSlate: Using Freetype 2.6.0
+[2018.10.04-00.46.34:662][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.04-00.46.34:663][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.04-00.46.34:881][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.04-00.46.34:884][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.10.04-00.46.35:028][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.04-00.46.35:057][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.04-00.46.35:090][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.04-00.46.35:090][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.10.04-00.46.35:090][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.10.04-00.46.35:464][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: testproject1, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2866925741
+[2018.10.04-00.46.35:500][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2018.10.04-00.46.35:538][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025033 seconds
+[2018.10.04-00.46.35:542][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2018.10.04-00.46.35:542][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2018.10.04-00.46.35:542][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.04-00.46.35:585][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.10.04-00.46.36:852][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.04-00.46.36:897][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.04-00.46.37:227][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.10.04-00.46.37:489][  0]SourceControl: Info Source control is disabled
+[2018.10.04-00.46.37:524][  0]SourceControl: Info Source control is disabled
+[2018.10.04-00.46.37:557][  0]SourceControl: Info Source control is disabled
+[2018.10.04-00.46.37:590][  0]SourceControl: Info Source control is disabled
+[2018.10.04-00.46.38:464][  0]LogEngine: Initializing Engine...
+[2018.10.04-00.46.38:464][  0]LogHMD: Oculus plugin initialized. Version: 4.15.3-3450819+++UE4+Release-4.15, LibOVR: 1.30.0, SDK: 1.10.0, built May 21 2017, 11:08:57
+[2018.10.04-00.46.38:544][  0]OCULUS: Debug: [HMDState] Using default profile default
+[2018.10.04-00.46.38:544][  0]OCULUS: Info: IAD changed to 69.1mm
+[2018.10.04-00.46.38:544][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.04-00.46.38:544][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.04-00.46.38:624][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.04-00.46.38:658][  0]LogInit: XAudio2 using 'VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.04-00.46.38:667][  0]LogInit: FAudioDevice initialized.
+[2018.10.04-00.46.38:687][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/day/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.10.04-00.46.38:695][  0]LogInit: Texture streaming: Enabled
+[2018.10.04-00.46.38:747][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.04-00.46.38:809][  0]LogInit: Transaction tracking system initialized
+[2018.10.04-00.46.39:036][  0]BlueprintLog: New page: Editor Load
+[2018.10.04-00.46.39:655][  0]LocalizationService: Info Localization service is disabled
+[2018.10.04-00.46.40:112][  0]LogConsoleResponse:Display: 
+[2018.10.04-00.46.40:198][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/' took 0.01s
+[2018.10.04-00.46.40:198][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.04-00.46.40:198][  0]LogCook:Display: Mobile HDR setting 1
+[2018.10.04-00.46.40:897][  0]SourceControl: Info Source control is disabled
+[2018.10.04-00.46.40:898][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 E:/Games/Epic Games/4.15/FeaturePacks/StarterContent.upack)
+[2018.10.04-00.46.40:902][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.10.04-00.46.40:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.10.04-00.46.40:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.10.04-00.46.40:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.10.04-00.46.40:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.10.04-00.46.40:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.10.04-00.46.40:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.10.04-00.46.40:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.10.04-00.46.40:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.10.04-00.46.40:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.10.04-00.46.40:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.10.04-00.46.40:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.10.04-00.46.40:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.10.04-00.46.40:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.10.04-00.46.40:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.10.04-00.46.40:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.10.04-00.46.40:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.10.04-00.46.40:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.10.04-00.46.40:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Fire01.uasset"
+[2018.10.04-00.46.40:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.10.04-00.46.40:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.10.04-00.46.40:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.10.04-00.46.40:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Light01.uasset"
+[2018.10.04-00.46.40:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.10.04-00.46.40:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Light02.uasset"
+[2018.10.04-00.46.40:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.10.04-00.46.40:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.10.04-00.46.40:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.10.04-00.46.41:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.10.04-00.46.41:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.10.04-00.46.41:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.10.04-00.46.41:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.10.04-00.46.41:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.10.04-00.46.41:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.10.04-00.46.41:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Steam01.uasset"
+[2018.10.04-00.46.41:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.10.04-00.46.41:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.10.04-00.46.41:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.10.04-00.46.41:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.10.04-00.46.41:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.10.04-00.46.41:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.10.04-00.46.41:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.10.04-00.46.41:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.10.04-00.46.41:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.10.04-00.46.41:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.10.04-00.46.41:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.10.04-00.46.41:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.10.04-00.46.41:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.10.04-00.46.41:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.10.04-00.46.41:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.10.04-00.46.41:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.10.04-00.46.41:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.10.04-00.46.41:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.10.04-00.46.41:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.10.04-00.46.41:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2018.10.04-00.46.41:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.10.04-00.46.41:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.10.04-00.46.41:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Maps/StarterMap.umap"
+[2018.10.04-00.46.41:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.10.04-00.46.41:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.10.04-00.46.41:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.10.04-00.46.41:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.10.04-00.46.41:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.10.04-00.46.41:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.10.04-00.46.41:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.10.04-00.46.41:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.10.04-00.46.41:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.10.04-00.46.41:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.10.04-00.46.41:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.10.04-00.46.41:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.10.04-00.46.41:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.10.04-00.46.41:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.10.04-00.46.41:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.10.04-00.46.41:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.10.04-00.46.41:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.10.04-00.46.41:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.10.04-00.46.41:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.10.04-00.46.41:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.10.04-00.46.41:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.10.04-00.46.41:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.10.04-00.46.41:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.10.04-00.46.41:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.10.04-00.46.41:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.10.04-00.46.41:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.10.04-00.46.41:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.10.04-00.46.41:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.10.04-00.46.41:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.10.04-00.46.41:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.10.04-00.46.41:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.10.04-00.46.41:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.10.04-00.46.41:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.10.04-00.46.41:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.10.04-00.46.41:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.10.04-00.46.41:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.10.04-00.46.41:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.10.04-00.46.41:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.10.04-00.46.41:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.10.04-00.46.41:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.10.04-00.46.41:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.10.04-00.46.41:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.10.04-00.46.41:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.10.04-00.46.41:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.10.04-00.46.41:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.10.04-00.46.41:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.10.04-00.46.41:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.10.04-00.46.41:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.10.04-00.46.41:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.10.04-00.46.41:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.10.04-00.46.41:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.10.04-00.46.41:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.10.04-00.46.41:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.10.04-00.46.41:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.10.04-00.46.41:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.10.04-00.46.41:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.10.04-00.46.41:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.10.04-00.46.41:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.10.04-00.46.41:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.10.04-00.46.41:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.10.04-00.46.41:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.10.04-00.46.41:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.10.04-00.46.41:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.10.04-00.46.41:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.10.04-00.46.41:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.10.04-00.46.41:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_Door.uasset"
+[2018.10.04-00.46.41:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.10.04-00.46.41:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.10.04-00.46.41:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.10.04-00.46.41:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.10.04-00.46.41:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.10.04-00.46.41:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.10.04-00.46.41:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.10.04-00.46.41:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.10.04-00.46.41:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.10.04-00.46.41:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.10.04-00.46.41:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.10.04-00.46.41:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.10.04-00.46.41:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.10.04-00.46.41:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.10.04-00.46.41:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.10.04-00.46.41:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.10.04-00.46.41:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.10.04-00.46.41:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.10.04-00.46.41:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.10.04-00.46.41:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.10.04-00.46.41:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.10.04-00.46.41:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.10.04-00.46.41:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.10.04-00.46.41:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.10.04-00.46.41:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.10.04-00.46.41:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.10.04-00.46.41:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.10.04-00.46.41:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.10.04-00.46.41:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.10.04-00.46.41:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.10.04-00.46.41:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.10.04-00.46.41:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.10.04-00.46.41:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.10.04-00.46.41:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.10.04-00.46.41:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.10.04-00.46.41:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.10.04-00.46.41:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.10.04-00.46.41:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.10.04-00.46.41:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.10.04-00.46.41:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.10.04-00.46.41:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.10.04-00.46.41:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.10.04-00.46.41:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.10.04-00.46.41:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.10.04-00.46.41:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.10.04-00.46.41:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.10.04-00.46.41:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.10.04-00.46.41:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.10.04-00.46.41:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.10.04-00.46.41:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.10.04-00.46.41:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.10.04-00.46.41:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.10.04-00.46.41:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.10.04-00.46.41:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.10.04-00.46.41:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.10.04-00.46.41:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.10.04-00.46.41:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.10.04-00.46.41:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.10.04-00.46.41:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.10.04-00.46.41:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.10.04-00.46.41:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.10.04-00.46.41:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.10.04-00.46.41:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.10.04-00.46.41:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.10.04-00.46.41:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.10.04-00.46.41:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.10.04-00.46.41:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.10.04-00.46.41:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.10.04-00.46.41:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.10.04-00.46.41:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.10.04-00.46.41:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.10.04-00.46.41:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.10.04-00.46.41:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.10.04-00.46.41:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.10.04-00.46.41:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.10.04-00.46.41:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.10.04-00.46.41:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.10.04-00.46.41:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.10.04-00.46.41:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.10.04-00.46.41:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.10.04-00.46.41:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.10.04-00.46.41:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.10.04-00.46.41:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.10.04-00.46.41:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.10.04-00.46.41:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.10.04-00.46.41:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.10.04-00.46.41:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.10.04-00.46.41:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.10.04-00.46.41:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.10.04-00.46.41:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.10.04-00.46.41:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.10.04-00.46.41:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.10.04-00.46.41:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.10.04-00.46.41:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.10.04-00.46.42:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.10.04-00.46.42:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.10.04-00.46.42:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.10.04-00.46.42:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.10.04-00.46.42:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.10.04-00.46.42:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.10.04-00.46.42:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2018.10.04-00.46.42:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.10.04-00.46.42:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.10.04-00.46.42:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.10.04-00.46.42:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.10.04-00.46.42:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.10.04-00.46.42:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.10.04-00.46.42:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.10.04-00.46.42:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.10.04-00.46.42:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.10.04-00.46.42:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.10.04-00.46.42:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.10.04-00.46.42:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.10.04-00.46.42:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.10.04-00.46.42:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.10.04-00.46.42:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.10.04-00.46.42:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.10.04-00.46.42:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.10.04-00.46.42:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.10.04-00.46.42:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.10.04-00.46.42:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.10.04-00.46.42:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.10.04-00.46.42:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.10.04-00.46.42:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.10.04-00.46.42:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.10.04-00.46.42:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.10.04-00.46.42:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.10.04-00.46.42:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.10.04-00.46.42:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.10.04-00.46.42:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.10.04-00.46.42:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.10.04-00.46.42:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.10.04-00.46.42:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.10.04-00.46.42:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.10.04-00.46.42:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.10.04-00.46.42:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.10.04-00.46.42:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.10.04-00.46.42:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.10.04-00.46.42:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.10.04-00.46.42:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.10.04-00.46.42:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.10.04-00.46.42:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.10.04-00.46.42:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.10.04-00.46.42:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.10.04-00.46.42:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.10.04-00.46.42:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.10.04-00.46.42:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.10.04-00.46.42:453][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2018.10.04-00.46.42:516][  0]LogSavePackage: Save=11.17ms
+[2018.10.04-00.46.42:516][  0]LogSavePackage: Moving '../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Saved/Floor_400x4006BAD5039406E0088A39B45985F39721B.tmp' to '../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2018.10.04-00.46.42:519][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2018.10.04-00.46.42:519][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2018.10.04-00.46.42:521][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.04-00.46.42:521][  0]LightingResults: New page: Lighting Build
+[2018.10.04-00.46.42:547][  0]MapCheck: New page: Map Check
+[2018.10.04-00.46.42:547][  0]LightingResults: New page: Lighting Build
+[2018.10.04-00.46.42:761][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.04-00.46.42:765][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.04-00.46.42:766][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.04-00.46.42:805][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.175ms to complete.
+[2018.10.04-00.46.42:805][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.284
+[2018.10.04-00.46.42:981][  0]LogCollectionManager: Loaded 0 collections in 0.000642 seconds
+[2018.10.04-00.46.43:059][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Saved/Collections/' took 0.01s
+[2018.10.04-00.46.43:059][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/Developers/day/Collections/' took 0.01s
+[2018.10.04-00.46.43:059][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/UE REPO CLOUD/Collaboration/TestProject1/Content/Collections/' took 0.01s
+[2018.10.04-00.46.43:059][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.10.04-00.46.43:066][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2245 classes and 453 folders.
+[2018.10.04-00.46.43:106][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.04-00.46.43:150][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.04-00.46.43:178][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.10.04-00.46.43:209][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.10.04-00.46.43:213][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.10.04-00.46.43:263][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.10.04-00.46.43:263][  0]LogLoad: (Engine Initialization) Total time: 13.10 seconds
+[2018.10.04-00.46.43:263][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2018.10.04-00.46.43:263][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.10.04-00.46.43:272][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.10.04-00.46.43:273][  0]LogOcInput: OculusInput pre-init called
+[2018.10.04-00.46.43:286][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.30.0
+[2018.10.04-00.46.43:301][  0]LogAssetRegistry: Asset discovery search completed in 7.8226 seconds
+[2018.10.04-00.46.43:301][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2018.10.04-00.46.43:301][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2018.10.04-00.46.44:082][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.10.04-00.46.44:089][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.04-00.46.44:091][  0]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.04-00.46.44:095][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.04-00.46.44:222][  0]LogRenderer: Reallocating scene render targets to support 1616x784 NumSamples 1 (Frame:3).
+[2018.10.04-00.46.58:822][709]SourceControl: Info On branch master
+[2018.10.04-00.46.58:822][709]SourceControl: Info Your branch and 'origin/master' have diverged,
+[2018.10.04-00.46.58:822][709]SourceControl: Info and have 1 and 1 different commits each, respectively.
+[2018.10.04-00.46.58:822][709]SourceControl: Info   (use "git pull" to merge the remote branch into yours)
+[2018.10.04-00.46.58:822][709]SourceControl: Info Untracked files:
+[2018.10.04-00.46.58:822][709]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.10.04-00.46.58:822][709]SourceControl: Info 	TestProject1/
+[2018.10.04-00.46.58:822][709]SourceControl: Info nothing added to commit but untracked files present (use "git add" to track)
+[2018.10.04-00.48.50:405][611]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
